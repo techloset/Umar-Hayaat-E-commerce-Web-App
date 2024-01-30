@@ -1,0 +1,11 @@
+.imageBackgroundForOffers{
+    background-image: url('../assets/images/LaptopBackground.png');
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    /* Is property k sath image apni jaga par rehti ha scroll karny par bhi */
+    /* background-attachment: fixed;    */
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    object-fit: cover;
+}

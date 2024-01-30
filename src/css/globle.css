@@ -1,0 +1,115 @@
+@import "../css/dropdown.css";
+@import "../css/swiper.css";
+@import "../css/offersSec.css";
+@import '../css/checkBox.css';
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+#root {
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  padding: 0 3.6rem;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+
+.textColor {
+  color: #292d32;
+}
+
+.BrandBarLogo {
+  filter: contrast(150%);
+  filter: saturate(5);
+}
+
+button:hover,
+.lowBrightness:hover {
+  filter: brightness(95%);
+  transition: 0.5s;
+}
+
+.lowBrightness:active {
+  filter: brightness(90%);
+  transition: 0.5s;
+}
+
+.scaleEffect:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.footerLogo {
+  filter: saturate(120%);
+  /* mix-blend-mode: multiply; */
+}
+
+.bottomMarginLine {
+  border-bottom: 1px solid #9d9d9d;
+}
+.listItems {
+  ul {
+    list-style: none;
+  }
+}
+.listItems {
+  li {
+    list-style-type: disc;
+  }
+}
+.listItems li::marker {
+  /* content: ''; */
+  color: #eda515b2;
+}
+
+/* For Cirle With Camera */
+.circleWithCamera {
+  display: flex;
+  /* width: 100px;
+height: 100px; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 13.483px; */
+  /* flex-shrink: 0; */
+
+  border-radius: 50%;
+  background: var(--b, #eda415);
+  cursor: pointer;
+}
+.circleWithCamera:hover {
+  filter: brightness(90%);
+  transition: 1s;
+}
+
+.textInCircle {
+  color: #fff;
+
+  /* font-family: Poppins; */
+  font-size: 18px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Set Image Properties */
+/* .imageProperties{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: auto;
+  
+} */
